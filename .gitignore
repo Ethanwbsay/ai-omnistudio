@@ -1,0 +1,39 @@
+.dart_tool/
+.flutter_tool_home/
+.pub-cache/
+.packages
+.pub/
+build/
+.idea/
+.vscode/*.log
+android/.gradle/
+android/local.properties
+
+# Generated and local development files
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+*.log
+.vscode/settings.json
+coverage/
+android/local-maven/
+android/local-engine-host/
+releases/
+*.apk
+*.aab
+/cmake-*.zip
+/emulator-home.png
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+**/key.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# OS files
+.DS_Store
+Thumbs.db
