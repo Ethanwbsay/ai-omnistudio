@@ -1,6 +1,6 @@
-# AI 酒馆 · AI Tavern
+# AI 万象工坊 · AI Omnistudio
 
-一个本地优先的 Flutter AI 应用，将角色聊天、拍照搜题、图片创作和视频生成放在同一个 Android 客户端中。支持配置自己的 OpenAI 兼容 API，并为聊天、图片与视频分别管理模型配置。
+角色酒馆、拍照搜题、图片创作与视频生成，一站式 AI 工具箱。一个本地优先的 Flutter Android 应用，支持配置自己的 OpenAI 兼容 API，并为聊天、图片与视频分别管理模型配置。
 
 当前版本：`1.0.14+15`
 
@@ -23,8 +23,8 @@
 ### 运行
 
 ```sh
-git clone https://github.com/Ethanwbsay/ai-tavern.git
-cd ai-tavern
+git clone https://github.com/Ethanwbsay/ai-omnistudio.git
+cd ai-omnistudio
 flutter doctor
 flutter pub get
 flutter run

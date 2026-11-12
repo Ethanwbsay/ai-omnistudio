@@ -81,8 +81,8 @@ class _TavernHomeState extends State<TavernHome> {
             title: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('AI 酒馆', style: TextStyle(fontWeight: FontWeight.w700)),
-                Text('和你设定的角色聊聊天',
+                Text('AI 万象工坊', style: TextStyle(fontWeight: FontWeight.w700)),
+                Text('角色酒馆 · 拍照搜题 · 图片与视频生成',
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(fontSize: 12, color: Colors.white54)),
@@ -186,7 +186,7 @@ class _TavernHomeState extends State<TavernHome> {
           const SizedBox(height: 90),
           Icon(Icons.local_bar_outlined, size: 76, color: _gold.withAlpha(210)),
           const SizedBox(height: 20),
-          const Text('欢迎来到 AI 酒馆',
+          const Text('欢迎来到 AI 万象工坊',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700)),
           const SizedBox(height: 10),

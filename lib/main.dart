@@ -22,7 +22,7 @@ class QuestionSolverApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'AI 酒馆',
+        title: 'AI 万象工坊',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           brightness: Brightness.dark,

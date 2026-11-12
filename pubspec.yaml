@@ -1,5 +1,5 @@
 name: question_solver
-description: An Android question-solving app powered by an OpenAI-compatible API.
+description: AI Omnistudio for roleplay chat, photo question solving, and image and video generation.
 publish_to: none
 version: 1.0.14+15
 

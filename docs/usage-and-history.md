@@ -1,4 +1,4 @@
-# AI 酒馆（Flutter Android）
+# AI 万象工坊（Flutter Android）
 
 一个本地优先的 AI 角色聊天应用：你可以配置多个 OpenAI 兼容 API，创建角色卡和全局用户 Persona，并以流式方式进行沉浸式对话。
 
@@ -94,7 +94,7 @@ Base URL 通常填写 `https://your-host/v1`，应用会请求 `.../chat/complet
 
 ## VS Code 测试
 
-工程已包含 `.vscode/launch.json`。在 VS Code 打开本目录后，选择 **解题助手（Flutter）**，连接 Android 手机或启动模拟器，再按 `F5`。也可在终端运行：
+工程已包含 `.vscode/launch.json`。在 VS Code 打开本目录后，选择 **AI 万象工坊（Flutter）**，连接 Android 手机或启动模拟器，再按 `F5`。也可在终端运行：
 
 ```powershell
 flutter doctor

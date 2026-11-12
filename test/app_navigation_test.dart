@@ -33,7 +33,7 @@ void main() {
     await tester.pumpWidget(const QuestionSolverApp());
     await tester.pump(const Duration(milliseconds: 100));
 
-    expect(find.text('AI 酒馆'), findsOneWidget);
+    expect(find.text('AI 万象工坊'), findsOneWidget);
     expect(find.byTooltip('搜题助手'), findsOneWidget);
 
     await tester.tap(find.byTooltip('搜题助手'));

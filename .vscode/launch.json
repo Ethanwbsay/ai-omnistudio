@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "解题助手（Flutter）",
+      "name": "AI 万象工坊（Flutter）",
       "request": "launch",
       "type": "dart",
       "program": "lib/main.dart"
