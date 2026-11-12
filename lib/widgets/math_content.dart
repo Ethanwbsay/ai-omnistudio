@@ -900,7 +900,7 @@ class MathContent extends StatelessWidget {
   }) {
     final repaired = [...block];
     if (environmentDepth > 0) {
-      // The supported multiline environment in the question solver is
+      // The supported multiline environment in AI Omnistudio's math renderer is
       // cases. Keep this conservative so ordinary prose is never invented.
       final beginsCases = block.any((line) => line.contains(r'\begin{cases}'));
       if (beginsCases) repaired.add(r'\end{cases}');

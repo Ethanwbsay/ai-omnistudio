@@ -6,7 +6,7 @@ void main() {
   testWidgets('opens video studio and provider presets from the home screen',
       (tester) async {
     SharedPreferences.setMockInitialValues({});
-    await tester.pumpWidget(const QuestionSolverApp());
+    await tester.pumpWidget(const AiOmnistudioApp());
     await tester.pump(const Duration(milliseconds: 100));
     await tester.tap(find.byTooltip('视频工作台'));
     await tester.pump();
@@ -14,10 +14,10 @@ void main() {
     expect(find.text('视频工作台'), findsOneWidget);
     expect(find.text('任务与作品'), findsOneWidget);
   });
-  testWidgets('opens the image studio from the tavern home screen',
+  testWidgets('opens the image studio from the app home screen',
       (tester) async {
     SharedPreferences.setMockInitialValues({});
-    await tester.pumpWidget(const QuestionSolverApp());
+    await tester.pumpWidget(const AiOmnistudioApp());
     await tester.pump(const Duration(milliseconds: 100));
     expect(find.byTooltip('图片工作台'), findsOneWidget);
     await tester.tap(find.byTooltip('图片工作台'));
@@ -26,11 +26,11 @@ void main() {
     expect(find.text('图片工作台'), findsOneWidget);
   });
 
-  testWidgets('opens the solver assistant from the tavern home screen',
+  testWidgets('opens the solver assistant from the app home screen',
       (tester) async {
     SharedPreferences.setMockInitialValues({});
 
-    await tester.pumpWidget(const QuestionSolverApp());
+    await tester.pumpWidget(const AiOmnistudioApp());
     await tester.pump(const Duration(milliseconds: 100));
 
     expect(find.text('AI 万象工坊'), findsOneWidget);
@@ -41,11 +41,11 @@ void main() {
     expect(find.text('解题助手'), findsOneWidget);
   });
 
-  testWidgets('opens the API configuration page from the tavern home screen',
+  testWidgets('opens the API configuration page from the app home screen',
       (tester) async {
     SharedPreferences.setMockInitialValues({});
 
-    await tester.pumpWidget(const QuestionSolverApp());
+    await tester.pumpWidget(const AiOmnistudioApp());
     await tester.pump(const Duration(milliseconds: 100));
 
     await tester.tap(find.byTooltip('API 配置'));

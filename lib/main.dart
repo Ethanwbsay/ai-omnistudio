@@ -15,10 +15,10 @@ import 'settings_page.dart';
 import 'widgets/math_content.dart';
 import 'tavern_app.dart';
 
-void main() => runApp(const QuestionSolverApp());
+void main() => runApp(const AiOmnistudioApp());
 
-class QuestionSolverApp extends StatelessWidget {
-  const QuestionSolverApp({super.key});
+class AiOmnistudioApp extends StatelessWidget {
+  const AiOmnistudioApp({super.key});
 
   @override
   Widget build(BuildContext context) => MaterialApp(
